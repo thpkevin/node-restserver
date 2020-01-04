@@ -1,0 +1,33 @@
+
+
+INSTALACION DE MONGODB MACOX
+
+-Instalar HOMEBREW en caso de no tenerlo
+https://brew.sh/index_es
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+-Verificar que version se tiene de HOMEBREW
+# brew --version
+
+-Instalacion de MONGODB
+# brew tap mongodb/brew
+# brew install mongodb-community@4.2
+
+-Ejecutar mongodb https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+# brew services start mongodb-community@4.2
+# mongod --config /usr/local/etc/mongod.conf --fork
+# ps aux | grep -v grep | grep mongod
+
+PARA MANEJAR MONGODB
+-Instalacion robo 3T
+https://robomongo.org/download
+
+
+INSTALACION DE EXPRESS
+
+-Instalar EXPRESS
+# npm i express --save
+
+-Instalar body-parse
+# npm i body-parse --save
+
